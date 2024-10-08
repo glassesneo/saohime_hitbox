@@ -1,0 +1,9 @@
+nimcache
+testresults*
+examples/*
+bin/*
+!*.nim
+!*.nims
+nimbledeps/*
+nim.cfg
+
