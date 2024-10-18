@@ -12,6 +12,7 @@ proc setup() {.system.} =
   .attach(Collidable.new())
   # .attach(PointCollider.new())
   # .attach(CircleCollider.new(radius = 20))
+  # .CircleBundle(radius = 20, bg = colBlue.toSaohimeColor())
   .attach(RectangleCollider.new(size = Vector.new(20, 20)))
   .RectangleBundle(size = Vector.new(20, 20), bg = colRed.toSaohimeColor())
 
